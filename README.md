@@ -6,6 +6,7 @@ xUbuntu 23.10 was used as the secondary system.
               boot. Closing the dialog does not lead to solving the issue.
    
    *Solution*: Install NVIDIA proprietary driver.
+   
                Blacklist NOUVEAU module:
                1.1 `sudo nano /etc/modprobe.d/blacklist-nouveau.conf`
                    Add the following:
